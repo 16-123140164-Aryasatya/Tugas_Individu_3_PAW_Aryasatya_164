@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafb;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+button:hover:not(:disabled) {
+  background-color: #2563eb !important;
+  transform: translateY(-1px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .App header h1 {
+    font-size: 28px !important;
+  }
+  
+  .App header p {
+    font-size: 14px !important;
+  }
+}
